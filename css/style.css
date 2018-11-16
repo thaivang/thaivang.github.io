@@ -15,3 +15,13 @@ p.card-text {
     margin-left: auto;
     margin-right: auto;
 }
+
+div.a {
+    text-align: left;
+}
+
+.carousel-inner {
+    width: auto;
+    height: auto;
+    margin: 50px 0px;
+}
