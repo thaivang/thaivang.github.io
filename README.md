@@ -1,5 +1,5 @@
 # Personal Website
-You can find my website here https://thaivang.github.io/
+You can find my website here https://thaivang.github.io
 Built with: 
 * Html
 * CSS
