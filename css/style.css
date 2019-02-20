@@ -24,4 +24,17 @@ div.a {
     width: auto;
     height: auto;
     margin: 50px 0px;
+    background: black;
+
 }
+
+#menu {
+    border-bottom: 3px solid yellow;
+    align-content: right;
+}
+
+.about_skills {
+    list-style-type: circle;
+}
+
+

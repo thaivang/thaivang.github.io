@@ -8,75 +8,108 @@
         <link rel="stylesheet" href="./css/style.css">
     <!--bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     </head>
     <body id="home">
         <!--Page content-->
         <div class="container">
 
             <!--Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light fixed-top notch-top" style="background-color:gray;">
-            <a class="navbar-brand abs" href="#">Welcome~</a>
+            
+            <!--add changes to background and new photo of me, add links to social-->
+            <!-- <div class="navbar-nav" id="menu"> -->
+            <nav class="navbar navbar-expand-lg fixed-top notch-top" style="background-color:gray" id ="menu">
+            <!-- <a class="navbar-brand abs" href="#">Thai Vang</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
+            </button> -->
 
-            <div class="collapse navbar-collapse" id="navbarText">
+            <!-- <div class="navbar-nav" id="menu"> -->
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="#home">
-                            <button type="button" class="btn btn-outline-warning">Home<span class="sr-only">(current)</span></button>
+                            <button type="button" class="btn btn-outline-light">Home<span class="sr-only">(current)</span></button>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#aboutme">
-                            <button type="button" class="btn btn-outline-danger">About me</button>
+                            <button type="button" class="btn btn-outline-light">About me</button>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#myprojects">
-                            <button type="button" class="btn btn-outline-success">My projects</button>
+                            <button type="button" class="btn btn-outline-light">My projects</button>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">
-                            <button type="button" class="btn btn-outline-dark">Contact</button>
+                            <button type="button" class="btn btn-outline-light">Contact</button>
                         </a>
                     </li>
                 </ul>
-            </div>
+            <!-- </div> -->
             </nav>
         </div>
 
         <!--Main content-->
-        <div class="image">
+        <div class="About_Me">
             <div class="card mb-5 mt-5">
-            <img class="card-img-top" src="./images/Abstract-art.jpg" width="200" height="300" alt="abstract art image">
+            <!-- <img class="card-img-top" src="./images/Abstract-art.jpg" width="200" height="300" alt="abstract art image"> -->
             </div>
-            <div class="card-body">
-                <p class="card-text">"Making the impossible possible through creativity and imagination"</p>
-                <p class="card-text">Thai Vang</p>
-                <img src="./images/Thai.jpg" width="500" height="500" alt="Photo of me" class="center">
-            </div>
-            
-    
+            <!-- <section class="section section--big spacing-huge-top"> -->
+                
+                <img src="./images/Thai.jpg" width="550" height="700" alt="Photo of me" class="center"></br>
+                
+                <div class="container">
+                    <div class="col mb-5 p-5" id="aboutme">
+                        <div class="row order-first">
+                            <h3>About me</h3>
+                            <p>Hello! I'm Thai and I currently live in portland, Oregon. I Attended The Tech Academy to become a software developer to purpsue my passion in tech. I enjoy playing video games and watching anime.</p>
+                            <p>If you like watching scary movies as much as I do (even thought scary movies does scare me) then you're in for a real treat because I mainly do it for the thrill of it.</p>
+                            <p>Here are a few skills that I have experience with: </p>
+                            <ul class = "about_skills">
+                                <li>Html</li>
+                            </ul>
+                            <ul class = "about_skills">
+                                <li>CSS</li>
+                            </ul>
+                            <ul class = "about_skills">
+                                <li>Javascript</li>
+                            </ul>
+                            <ul class = "about_skills">
+                                <li>SQL</li>
+                            </ul>
+                            <ul class = "about_skills">
+                                <li>C#</li>
+                            </ul>
+                        </div>
+                    </div>
+                <div>    
+            <!-- </section> -->
+        </div>    
 
-            <!--Carousel boostrap-->
+        <!--Carousel boostrap-->
+        <div class="Image">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
+            <div class="col">
+                <h5>
+                    Here is a few drawings that I have drawn out of imagination.
+                </h5>
+            </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="./images/dentist.jpg"  alt="First slide">
+                    <img class="d-block center" src="./images/dentist.jpg"  alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="./images/miserable_life.jpg" alt="Second slide">
+                    <img class="d-block center" src="./images/miserable_life.jpg" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="./images/zombie_attack.jpg" alt="Third slide">
+                    <img class="d-block center" src="./images/zombie_attack.jpg" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -88,68 +121,47 @@
                 <span class="sr-only">Next</span>
             </a>
             </div>
-            <div class="col mb-5 mt-5">
-                <h5>
-                    Note about photos: I am aware that my images are not formated properly on my website. 
-                    Please bare with me as I will try find a way to fix it. 
-                </h5>
-            </div>
         </div>
         <!--/Carousel bootstrap-->
-
-        <div class="container">
-            <div class="col mb-5 p-5" id="aboutme">
-                <div class="row order-first">
-                    <h3>About me</h3>
-                    <p>I was born in Stockton, California where I lived there for a few years and then moved to Oregon. I very much enjoy playing video games especially zombies on Call of Duty and watching anime.</p>
-                    <p>If you like watching scary movies as much as I do (even thought scary movies does scare me) then you're in for a real treat because I mainly do it for the thrill of it.</p>
-                    <p>Oh...just dont't try to use puns with my name you're only making yourself look bad in front of me LOL. </p>
-                </div>
-            </div>
             
+            <!--Add projects here-->
             <div class="col mb-5 p-5" id="myprojects">
                 <div class="row">
-                    <div class="a">
+                    <div class="My_Projects">
                         <h3>My Projects</h3>
-                        <p>Loading...Drawing out plans...Nothing here at the moment, come back later</p>
+                        <p>Code Retrospective - working with a team creating a jobplacement application</br>
+                        <a href="https://github.com/thaivang/Job-Placement-Dashboard">Live Project</a>
+                        </p>
+                        
+                        <p>Car Insurance - User enters in personal info to obtain a monthly quote</br>
+                        <a href="https://github.com/thaivang/The-Tech-Academy-C-Sharp-projects/tree/master/CarInsurance">Car Insurance</a>
+                        </p>
+                        
+                        <p>Pizza Website - cutomize an order and return total to user</br>
+                        <a href="https://github.com/thaivang/Pizza-website">Pizza Website</a>
+                        </p>
                     </div>
                 </div>
             </div>
-
             <div class="col mb-5 p-5" id="contact">
                 <div class="row order-last">
                     <div class="a">
                         <h2>Connect with me</h2>
-                        <p>You can connect with me here:</p>
-                            
-                        <p>Github</p>
-                            <a href="https://github.com/thaivang">See my projects on Github</a>
-                        <p>linkedin</p>
-                            <a href="https://www.linkedin.com/in/thai-vang-447711169/">Connect with me here on linkedin</a>
-                        <p>Twitch</p>
-                        <a href= "https://www.twitch.tv/typhoonlistic">Watch me play games on twitch or JOIN ME!</a>
+                        <a href="https://github.com/thaivang"><i class="fab fa-github"> On Github</i></a></br>
+                        <a href="https://www.linkedin.com/in/thai-vang-447711169/"><i class="fab fa-linkedin"> On LinkedIn</i></a>                       
                     </div>
                 </div>
             </div>
-        
-
-
-            
-        </div>
 
         <!--End Main content-->
     
         <!--Footer-->
         <ul class="nav" id="">
             <li class="nav-item">
-                <small><a class="nav-link">&copy;2018 Thai Vang</a></small>
-            </li>
-            <li>
-                <small><a class="nav-link">Website is still under construction</a></small>
+                <large><a class="nav-link">&copy; 2019 Thai Vang</a></large><!--center footer-->
             </li>
 		</ul>
         <!--End of Footer-->
-
 
       <!--jQuery first, then tether, then Bootstrap JS. -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
