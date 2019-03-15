@@ -1,7 +1,28 @@
-#home {
-    background-image: url(/images/Blur-Background.jpg);
+
+/*font icons in navbar*/
+.fa-home, 
+.fa-address-card,
+.fa-laptop-code,
+.fa-envelope
+{
+    color: black;
 }
-/* Photo by: rovenimages.com https://www.pexels.com/photo/yellow-bokeh-photo-949587/*/
+/*naviagation bar*/
+.navbar {
+    background-color:lightgrey;
+    border-radius: 25px;
+    position: fixed;
+    top: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: #f7f5f0;
+}
+
 p.card-text {
     text-align: center;
 }
@@ -12,6 +33,7 @@ p.card-text {
     border: 2px solid red;
     padding: 0px;
     margin: 0px;
+    border-radius: 20px;
 }
 
 .center {
@@ -41,4 +63,10 @@ div.a {
     list-style-type: circle;
 }
 
-
+.main-nav {
+    
+    background: white;
+    padding: 0px;
+    position: fixed;
+    text-align: center;
+}
