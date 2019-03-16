@@ -9,11 +9,13 @@
 }
 /*naviagation bar*/
 .navbar {
-    background-color:lightgrey;
-    border-radius: 25px;
+    /* background-color:lightblue; */
+    border-radius: 20px;
     position: fixed;
     top: 0;
+    width: 100%;
 }
+
 body{
   margin: 0;
   padding: 0;
@@ -30,10 +32,24 @@ p.card-text {
 .col {
     background-color: lightgrey;
     width: 200px;
-    border: 2px solid red;
+    border: 2px solid lightblue;
     padding: 0px;
     margin: 0px;
     border-radius: 20px;
+}
+
+.col-icon {
+    list-style-type: none;
+    margin: 30px;
+}
+
+.icons {
+    margin-top: 50px;
+}
+
+.h4{
+    margin: 100px;
+    text-align: center;
 }
 
 .center {
@@ -59,14 +75,6 @@ div.a {
     align-content: right;
 }
 
-.about_skills {
-    list-style-type: circle;
-}
-
-.main-nav {
-    
-    background: white;
-    padding: 0px;
-    position: fixed;
-    text-align: center;
+#footer {
+    margin: 20px;
 }
