@@ -9,8 +9,8 @@
 }
 /*naviagation bar*/
 .navbar {
-    /* background-color:lightblue; */
-    border-radius: 20px;
+    background-color:lightgrey;
+    margin-bottom: 10px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -73,6 +73,11 @@ div.a {
 #menu {
     border-bottom: 3px solid yellow;
     align-content: right;
+}
+
+.links {
+    margin: 0px;
+    text-align: center;
 }
 
 #footer {
