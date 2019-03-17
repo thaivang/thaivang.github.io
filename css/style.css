@@ -10,15 +10,12 @@
 /*naviagation bar*/
 .navbar {
     background-color:lightgrey;
-    margin-bottom: 10px;
-    position: fixed;
-    top: 0;
     width: 100%;
 }
 
 body{
   margin: 0;
-  padding: 0;
+  padding: 20px;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
@@ -34,7 +31,7 @@ p.card-text {
     width: 200px;
     border: 2px solid lightblue;
     padding: 0px;
-    margin: 0px;
+    margin-top: 0px;
     border-radius: 20px;
 }
 
